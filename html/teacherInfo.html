@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel='stylesheet' href="../css/home.css">
+  <link rel='stylesheet' href="../css/table.css">
+  <title>Teacher Info Page</title>
+</head>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <label for="input-hamburger" class="hamburger"></label>
+      <input type="checkbox" id="input-hamburger" hidden />
+      <ul class="menu">
+        <li><a href="../html/home.html" class="menu-link">Home</a></li>
+
+        <li class="has-dropdown">
+          <a href="" class="menu-link">Teacher&nbsp;<span class="arrow"></span>
+          </a>
+          <ul class="submenu">
+            <li><a href="../php/teacherLogin.php" class="menu-link">Login as Teacher</a></li>
+            <li>
+              <a href="../php/teacherRegistration.php" class="menu-link">Register as Teacher</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="has-dropdown">
+          <a href="" class="menu-link">Student
+            <span class="arrow"></span>
+          </a>
+          <ul class="submenu">
+            <li><a href="../php/studentLogin.php" class="menu-link">Login as Student</a></li>
+            <li>
+              <a href="../php/studentRegistration.php" class="menu-link">Register as Student</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="has-dropdown">
+          <a href="" class="menu-link">Admin
+            <span class="arrow"></span>
+          </a>
+          <ul class="submenu">
+            <li><a href="../php/adminLogin.php" class="menu-link">Login as Admin</a></li>
+          </ul>
+        </li>
+
+        <li><a href="../html/about.html" class="menu-link">About Us</a></li>
+        <li><a href="../html/feedback.html" class="menu-link">Feedback</a></li>
+      </ul>
+    </nav>
+    <script src="../js/nav.js"></script>
+  </header>
+
+  <div class="bdy">
+    <h2>Teacher Info.</h2>
+    <br><br>
+    <table>
+      <tr>
+        <th>Serial No.</th>
+        <th>Teacher ID</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Course &nbsp; Taken</th>
+        <th>Dept.</th>
+        <th>Contact No.</th>
+      </tr>
+      <tr>
+        <td>01</td>
+        <td>T-01</td>
+        <td>ASA</td>
+        <td>gangchil76@googlemail.com</td>
+        <td>CSE-3637 <br> CSE-3638 <br>CSE-3640</td>
+        <td>CSE</td>
+        <td>017333800861</td>
+      </tr>
+
+      <tr>
+        <td>02</td>
+        <td>T-02</td>
+        <td>FT</td>
+        <td>farzanatasnim34@gmail.com</td>
+        <td>CSE-4747</td>
+        <td>CSE</td>
+        <td>01521487508</td>
+      </tr>
+      <tr>
+        <td>03</td>
+        <td>T-03</td>
+        <td>SS</td>
+        <td>ssharmin114@gmail.com</td>
+        <td>CSE-4745 <br> CSE-4746 </td>
+        <td>CSE</td>
+        <td>01798129266</td>
+      </tr>
+
+    </table>
+    <br><br>
+    <tr>
+      <td>
+        <a style="color: black; font-size: 1.5rem;" href="../html/adminDashboard.html">Back to Admin Page</a>
+      </td>
+    </tr>
+
+
+  </div>
+
+  <div class="footer">
+    <p>
+      Developed By<br /><br />
+      Nishi, &nbsp; Aymon, &nbsp; Jafrin.
+    </p>
+  </div>
+</body>
+
+</html>

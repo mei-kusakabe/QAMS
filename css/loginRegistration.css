@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+label {
+    position: absolute;
+    left: 8%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+label span {
+    display: inline-block;
+    transition: transform 0.2s, color 0.3s;
+}
+
+input:focus+label span,
+input:not(:placeholder-shown)+label span {
+    transform: translateY(-40px);
+    color: #fff;
+}
